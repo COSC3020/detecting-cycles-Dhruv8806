@@ -15,3 +15,7 @@ exercises.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+The worst case big $\Theta$ complexity of my implementation is $\Theta(V + E)$, where $V$ is the number of vertices 
+and $E$ is the number of edges in the graph. The complexity arises due to depth-first search 
+(DFS) traversal used to detect cycles. 
