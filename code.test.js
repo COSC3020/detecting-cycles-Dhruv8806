@@ -33,7 +33,6 @@ const graph3 = [
 const expected3 = false;
 assert(hasCycle(graph3) == expected3);
 
-
 const graph4 = [
   [1, 2],
   [0, 3],
